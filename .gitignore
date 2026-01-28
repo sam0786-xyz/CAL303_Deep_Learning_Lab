@@ -1,0 +1,57 @@
+# Datasets
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+
+# Kaggle
+.kaggle/
+
+# TensorFlow/Keras
+*.h5
+*.keras
+*.pb
+saved_models/
+logs/
+checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Byte-compiled / optimized / DLL files
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Images generated during experiments
+data/*.png
